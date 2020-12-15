@@ -1,0 +1,32 @@
+<!-- ./views/layouts/main.handlebars -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="/stylesheets/bootstrap.css">
+  <script src="https://kit.fontawesome.com/1c1114530d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- navigation -->
+  <nav class="navbar navbar-light" style="background-color: #e6e8eb;">
+    <div class="container">
+      <a class="navbar-brand" href="#">Restaurant List</a>
+    </div>
+  </nav>
+
+  <!-- partial templates will replace the part of "body" here -->
+  {{{ body }}}
+
+  <!-- include javascript files here -->
+  <script src="/javascripts/jquery-3.3.1.js"></script>
+  <script src="/javascripts/popper.js"></script>
+  <script src="/javascripts/bootstrap.js"></script>
+</body>
+
+</html>

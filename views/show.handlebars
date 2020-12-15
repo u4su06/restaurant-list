@@ -1,0 +1,24 @@
+<!-- ./views/show.handlebars -->
+<div class="container py-5">
+  <div class="text-center mb-5">
+    <h1 class="mb-3">{{rest.name}}</h1>
+  </div>
+  <div class="row mb-3">
+    <div class="col-6 mx-auto">
+      <p><i class="fas fa-utensils mr-2"></i>{{rest.category}}</p>
+      <p><i class="fas fa-phone-alt mr-2"></i>{{rest.phone}}</p>
+      <p>
+        <i class="fas fa-map-marker-alt mr-2"></i>{{rest.location}}
+        <a href="{{rest.google_map}}" class="text-secondary" target="_blank">
+          <i class="fas fa-location-arrow small"></i>
+        </a>
+      </p>
+      <p>
+        {{rest.description}}
+      </p>
+    </div>
+  </div>
+  <div class="text-center mb-3">
+    <img src="{{rest.image}}" alt="Card image cap" style="max-height: 400px;">
+  </div>
+</div>
