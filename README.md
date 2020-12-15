@@ -1,6 +1,6 @@
 # 我的餐廳清單
-這個專案收集並展示我最喜歡的餐廳資料
-使用 node.js + express + handlebars 打造而成
+- 這個專案收集並展示我最喜歡的餐廳資料
+- 使用 node.js + express + handlebars 打造而成
 
 ## 功能描述 (features)
 - 主頁可觀看所有的餐廳簡介
